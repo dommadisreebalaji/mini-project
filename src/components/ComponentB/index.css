@@ -1,0 +1,42 @@
+.counter-container {
+  background-color: #e5e5e5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 200px;
+  min-width: 200px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.counter-button-container {
+  height: 150px;
+  width: 150px;
+  border-radius: 1000px;
+  text-align: center;
+  padding-top: 35px;
+}
+
+.counter-heading {
+  text-align: center;
+  margin: 0px;
+  font-size: 36px;
+  font-weight: 300;
+}
+
+.counter-button {
+  background-color: transparent;
+  border: none;
+  text-decoration: underline;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+.yellow {
+  background-color: #ffbf00;
+}
+
+.red {
+  background-color: #ff3633;
+}
